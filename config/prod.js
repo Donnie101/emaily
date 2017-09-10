@@ -4,5 +4,7 @@ module.exports = {
     MONGO_URI: process.env.MONGO_URI,
     SECRET: process.env.SECRET,
     STRIPE_PUBLISHABLE_KEY: process.env.STRIPE_PUBLISHABLE_KEY,
-    STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY
+    STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
+    SENDGRID_KEY: process.env.SENDGRID_KEY,
+    REDIRECT_DOMAIN: process.env.REDIRECT_DOMAIN
 }
